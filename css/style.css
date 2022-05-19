@@ -156,6 +156,68 @@ footer nav ul li a {
     color: white !important;
 }
 
+.ticket-purchase {
+    margin: 20px auto;
+}
+
+.cards-categories {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.category {
+    padding: 20px;
+    text-align: center;
+}
+
+.student {
+    border: 1px solid blue;
+}
+.trainee {
+    border: 1px solid pink;
+}
+
+.junior {
+    border: 1px solid yellow;
+}
+
+.ticket-value-description {
+    text-align: center;
+}
+
+.ticket-value-description h3 {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.ticket-value-description p {
+    font-size: 2rem;
+}
+
+.purchase-form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+#purchase-form-input-email {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+#purchase-form-alert {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.btn-clean {
+    grid-column: 1 / 2;
+}
+
+.btn-resume {
+    grid-column: 2 / -1;
+}
+
 
 
 @media screen and (max-width: 576px){
