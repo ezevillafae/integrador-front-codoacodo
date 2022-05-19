@@ -156,6 +156,8 @@ footer nav ul li a {
     color: white !important;
 }
 
+
+
 @media screen and (max-width: 576px){
     .nav-label {
         display: block;
